@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="Lagt in test-robot-filer">
-      <change beforePath="$PROJECT_DIR$/.idea/Sportson_tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sportson_tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="skapade resources.bot , skrev tester i login_admin och login_employee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Login_Admin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Login_Admin.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Login_Employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Login_Employee.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776330348980</updated>
       <workItem from="1776332048560" duration="1962000" />
-      <workItem from="1776363120683" duration="717000" />
+      <workItem from="1776363120683" duration="2500000" />
     </task>
     <task id="LOCAL−00001" summary="Lagt in test-robot-filer">
       <option name="closed" value="true" />
@@ -137,7 +132,15 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1776331283137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="skapade resources.bot , skrev tester i login_admin och login_employee">
+      <option name="closed" value="true" />
+      <created>1776409809280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776409809280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagt in test-robot-filer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagt in test-robot-filer" />
+    <MESSAGE value="skapade resources.bot , skrev tester i login_admin och login_employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="skapade resources.bot , skrev tester i login_admin och login_employee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="snälla funka">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.robot" afterDir="false" />
-    </list>
+    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="Lagt in test-robot-filer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,12 +17,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "eliinasvensson"
-  }
-}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/eliinasvensson/G9_Sportson.git",
@@ -81,14 +72,7 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1776331283137</updated>
     </task>
-    <task id="LOCAL−00003" summary="snälla funka">
-      <option name="closed" value="true" />
-      <created>1776331939054</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1776331939054</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,8 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagt in test-robot-filer" />
-    <MESSAGE value="snälla funka" />
-    <option name="LAST_COMMIT_MESSAGE" value="snälla funka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagt in test-robot-filer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

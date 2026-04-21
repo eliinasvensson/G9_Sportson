@@ -4,8 +4,8 @@ Library          SeleniumLibrary
 
 *** Variables ***
 
-${URL}               http://localhost:3000/login // ändra sen
-${BROWSER}           chrome
+${URL}               http://localhost:5173/login //
+${BROWSER}           firefox
 
 ${INPUT_USERNAME}    id=email-field
 ${INPUT_PASSWORD}    id=password-field

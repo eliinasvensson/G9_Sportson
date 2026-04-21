@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Test suite for Admin Login functionality based on TC03.
-Resource         resources.robot
+Resource         resources.resource
 
 Test Teardown    Close test browser
 

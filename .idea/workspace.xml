@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="skapade resources.bot , skrev tester i login_admin och login_employee">
+    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="strukturerade varje fil, la till &#10;&#10;*** Settings *** &#10;&#10;&#10;*** Variables ***&#10;&#10;&#10;&#10;*** Test Cases ***&#10;&#10;&#10;*** Keywords ***">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Admin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Login_Admin.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Login_Employee.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_EmptyFields.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Login_EmptyFields.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/News_Categories.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/News_Categories.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/resources.resource" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +69,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Sandi/Desktop/G9_Sportson",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776330348980</updated>
       <workItem from="1776332048560" duration="1962000" />
-      <workItem from="1776363120683" duration="6972000" />
+      <workItem from="1776363120683" duration="19354000" />
     </task>
     <task id="LOCAL−00001" summary="Lagt in test-robot-filer">
       <option name="closed" value="true" />
@@ -156,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776414243786</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="strukturerade varje fil, la till &#10;&#10;*** Settings *** &#10;&#10;&#10;*** Variables ***&#10;&#10;&#10;&#10;*** Test Cases ***&#10;&#10;&#10;*** Keywords ***">
+      <option name="closed" value="true" />
+      <created>1776417293096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776417293096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagt in test-robot-filer" />
     <MESSAGE value="skapade resources.bot , skrev tester i login_admin och login_employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="skapade resources.bot , skrev tester i login_admin och login_employee" />
+    <MESSAGE value="strukturerade varje fil, la till &#10;&#10;*** Settings *** &#10;&#10;&#10;*** Variables ***&#10;&#10;&#10;&#10;*** Test Cases ***&#10;&#10;&#10;*** Keywords ***" />
+    <option name="LAST_COMMIT_MESSAGE" value="strukturerade varje fil, la till &#10;&#10;*** Settings *** &#10;&#10;&#10;*** Variables ***&#10;&#10;&#10;&#10;*** Test Cases ***&#10;&#10;&#10;*** Keywords ***" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

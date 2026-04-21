@@ -1,7 +1,7 @@
 
 *** Settings ***
 Documentation    Test suite for Employee Login functionality.
-Resource         resources.robot
+Resource         resources.resource
 
 Test Teardown    Close test browser
 

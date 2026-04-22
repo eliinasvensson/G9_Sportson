@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="plz">
+    <list default="true" id="2ed69a00-2ad5-4bce-98f4-60d21574affd" name="Changes" comment="first test-case demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver-1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Frontend_Tester.resource" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Frontend_Tester.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/OpenSportsonView.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/OpenSportsonView.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Admin.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Employee.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_EmptyFields.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Failed.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Login_Partner.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/News_Categories.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/OpenSportsonView.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Detailed_News_View.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources.resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.robot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +64,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Robot.OpenSportsonView.robot.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Öppna hemsidan.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Robot.Detailed_News_View.robot.executor": "Run",
+    "Robot.OpenSportsonView.robot.executor": "Run",
+    "Robot.TC09 Detailed news item view.executor": "Run",
+    "Robot.Öppna hemsidan.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
-  <component name="RunManager" selected="Robot.OpenSportsonView.robot">
-    <configuration name="Given" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Robot.Detailed_News_View.robot">
+    <configuration name="Detailed_News_View.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="Sportson_tests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,14 +87,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (Sportson_tests)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;Sportson_tests.tests.OpenSportsonView.Given&quot; ." />
+      <option name="PARAMETERS" value="--suite &quot;Sportson_tests.tests.Detailed_News_View&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -115,6 +126,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TC09 Detailed news item view" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="Sportson_tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (Sportson_tests)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;Sportson_tests.tests.OpenSportsonView.TC09 Detailed news item view&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TC09" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="Sportson_tests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;Sportson_tests.tests.OpenSportsonView.TC09&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test1 nyheter" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="Sportson_tests" />
       <option name="ENV_FILES" value="" />
@@ -138,60 +196,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Testcase 1" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="Sportson_tests" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;Sportson_tests.tests.OpenSportsonView.Testcase 1&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Öppna hemsidan" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="Sportson_tests" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.14 (Sportson_tests)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;Sportson_tests.tests.OpenSportsonView.Öppna hemsidan&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.Detailed_News_View.robot" />
+        <item itemvalue="Robot.TC09 Detailed news item view" />
         <item itemvalue="Robot.OpenSportsonView.robot" />
+        <item itemvalue="Robot.TC09" />
         <item itemvalue="Robot.Test1 nyheter" />
-        <item itemvalue="Robot.Testcase 1" />
-        <item itemvalue="Robot.Öppna hemsidan" />
-        <item itemvalue="Robot.Given" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +276,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1776763232984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="first test-case demo">
+      <option name="closed" value="true" />
+      <created>1776845375964</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1776845375964</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +301,8 @@
     <MESSAGE value="Lagt in test-robot-filer" />
     <MESSAGE value="skapade resources.bot , skrev tester i login_admin och login_employee" />
     <MESSAGE value="strukturerade varje fil, la till &#10;&#10;*** Settings *** &#10;&#10;&#10;*** Variables ***&#10;&#10;&#10;&#10;*** Test Cases ***&#10;&#10;&#10;*** Keywords ***" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagt in test-robot-filer" />
+    <MESSAGE value="first test-case demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test-case demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

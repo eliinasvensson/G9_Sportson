@@ -1,408 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-04-21T11:11:44.658687" rpa="false" schemaversion="5">
-<suite id="s1" name="Tests" source="C:\Coding\Sportson_tests\tests">
-<suite id="s1-s1" name="Login Admin" source="C:\Coding\Sportson_tests\tests\Login_Admin.robot">
-<test id="s1-s1-t1" name="TC03 Verify Admin Login Navigate To Dashboard" line="13">
-<kw name="Given User is on login page" owner="resources">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:11:44.999437" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000/login // ändra sen'.</msg>
-<msg time="2026-04-21T11:11:48.890714" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-04-21T11:11:48.891332" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</msg>
-<arg>${URL}</arg>
-<arg>${BROWSER}</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="FAIL" start="2026-04-21T11:11:44.999052" elapsed="3.899817">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</kw>
-<kw name="Maximize Browser Window" owner="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" start="2026-04-21T11:11:48.899401" elapsed="0.000086"/>
-</kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>${INPUT_USERNAME}</arg>
-<arg>timeout=5s</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="NOT RUN" start="2026-04-21T11:11:48.899708" elapsed="0.000054"/>
-</kw>
-<status status="FAIL" start="2026-04-21T11:11:44.998126" elapsed="3.901949">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</kw>
-<kw name="When User enters credentials" owner="resources">
-<arg>${ADMIN_USERNAME}</arg>
-<arg>${ADMIN_PASSWORD}</arg>
-<status status="NOT RUN" start="2026-04-21T11:11:48.939008" elapsed="0.000120"/>
-</kw>
-<kw name="And Clicks the login button" owner="resources">
-<status status="NOT RUN" start="2026-04-21T11:11:48.940097" elapsed="0.000114"/>
-</kw>
-<kw name="Then User is navigated to admin dashboard">
-<status status="NOT RUN" start="2026-04-21T11:11:48.940945" elapsed="0.000082"/>
-</kw>
-<kw name="Close test browser" owner="resources" type="TEARDOWN">
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-04-21T11:11:48.942687" elapsed="2.266266"/>
-</kw>
-<status status="PASS" start="2026-04-21T11:11:48.942074" elapsed="2.267099"/>
-</kw>
-<tag>Admin</tag>
-<tag>Login</tag>
-<tag>TC03</tag>
-<status status="FAIL" start="2026-04-21T11:11:44.996893" elapsed="6.212802">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</test>
-<doc>Test suite for Admin Login functionality based on TC03.</doc>
-<status status="FAIL" start="2026-04-21T11:11:44.711799" elapsed="6.499788"/>
-</suite>
-<suite id="s1-s2" name="Login Employee" source="C:\Coding\Sportson_tests\tests\Login_Employee.robot">
-<test id="s1-s2-t1" name="Verify Employee Login Navigate To Dashboard" line="14">
-<kw name="Given User is on login page" owner="resources">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:11:51.217744" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000/login // ändra sen'.</msg>
-<msg time="2026-04-21T11:11:55.026174" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-04-21T11:11:55.026585" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</msg>
-<arg>${URL}</arg>
-<arg>${BROWSER}</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="FAIL" start="2026-04-21T11:11:51.217480" elapsed="3.812518">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</kw>
-<kw name="Maximize Browser Window" owner="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" start="2026-04-21T11:11:55.030514" elapsed="0.000229"/>
-</kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>${INPUT_USERNAME}</arg>
-<arg>timeout=5s</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="NOT RUN" start="2026-04-21T11:11:55.031135" elapsed="0.000075"/>
-</kw>
-<status status="FAIL" start="2026-04-21T11:11:51.217161" elapsed="3.814405">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</kw>
-<kw name="When User enters credentials" owner="resources">
-<arg>${EMPLOYEE_USERNAME}</arg>
-<arg>${EMPLOYEE_PASSWORD}</arg>
-<status status="NOT RUN" start="2026-04-21T11:11:55.032539" elapsed="0.000102"/>
-</kw>
-<kw name="And Clicks the login button" owner="resources">
-<status status="NOT RUN" start="2026-04-21T11:11:55.033384" elapsed="0.000083"/>
-</kw>
-<kw name="Then User is navigated to employee dashboard">
-<status status="NOT RUN" start="2026-04-21T11:11:55.034060" elapsed="0.000069"/>
-</kw>
-<kw name="Close test browser" owner="resources" type="TEARDOWN">
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-04-21T11:11:55.035412" elapsed="2.288870"/>
-</kw>
-<status status="PASS" start="2026-04-21T11:11:55.034894" elapsed="2.289716"/>
-</kw>
-<doc>Verifies that an existing employee can log in successfully.</doc>
-<tag>Employee</tag>
-<tag>Login</tag>
-<status status="FAIL" start="2026-04-21T11:11:51.216435" elapsed="6.110075">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=147.0.7727.56)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7c45d0245+146d5]
-	chromedriver!GetHandleVerifier [0x7ff7c45d02b0+14740]
-	chromedriver!(No symbol) [0x7ff7c433d7cd]
-	chromedriver!(No symbol) [0x7ff7c433a304]
-	chromedriver!(No symbol) [0x7ff7c432a271]
-	chromedriver!(No symbol) [0x7ff7c432c15f]
-	chromedriver!(No symbol) [0x7ff7c432a813]
-	chromedriver!(No symbol) [0x7ff7c4329fdb]
-	chromedriver!(No symbol) [0x7ff7c4329c91]
-	chromedriver!(No symbol) [0x7ff7c43278c1]
-	chromedriver!(No symbol) [0x7ff7c4328022]
-	chromedriver!(No symbol) [0x7ff7c4341a86]
-	chromedriver!(No symbol) [0x7ff7c43e5674]
-	chromedriver!(No symbol) [0x7ff7c43bff6a]
-	chromedriver!(No symbol) [0x7ff7c43e4818]
-	chromedriver!(No symbol) [0x7ff7c4389018]
-	chromedriver!(No symbol) [0x7ff7c4389f03]
-	chromedriver!GetHandleVerifier [0x7ff7c48e58f9+329d89]
-	chromedriver!GetHandleVerifier [0x7ff7c48dfe46+3242d6]
-	chromedriver!GetHandleVerifier [0x7ff7c49030b2+347542]
-	chromedriver!GetHandleVerifier [0x7ff7c45ed3d5+31865]
-	chromedriver!GetHandleVerifier [0x7ff7c45f600c+3a49c]
-	chromedriver!GetHandleVerifier [0x7ff7c45d9634+1dac4]
-	chromedriver!GetHandleVerifier [0x7ff7c45d97e6+1dc76]
-	chromedriver!GetHandleVerifier [0x7ff7c45be2f7+2787]
-	KERNEL32!BaseThreadInitThunk [0x7ffa4c3be8d7+17]
-	ntdll!RtlUserThreadStart [0x7ffa4d38c48c+2c]
-</status>
-</test>
-<doc>Test suite for Employee Login functionality.</doc>
-<status status="FAIL" start="2026-04-21T11:11:51.212941" elapsed="6.116445"/>
-</suite>
-<suite id="s1-s3" name="OpenSportsonView" source="C:\Coding\Sportson_tests\tests\OpenSportsonView.robot">
-<test id="s1-s3-t1" name="Öppna hemsidan" line="5">
-<kw name="Öppna hemsidan" owner="Frontend_Tester">
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-04-22T10:05:33.303760" rpa="false" schemaversion="5">
+<suite id="s1" name="Sportson tests" source="C:\Coding\Sportson_tests">
+<suite id="s1-s1" name="Tests" source="C:\Coding\Sportson_tests\tests">
+<suite id="s1-s1-s1" name="OpenSportsonView" source="C:\Coding\Sportson_tests\tests\OpenSportsonView.robot">
+<kw name="Öppna hemsidan" owner="Frontend_Tester" type="SETUP">
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
-<arg>2</arg>
+<arg>1</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2026-04-21T11:11:57.363307" elapsed="0.000468"/>
+<status status="PASS" start="2026-04-22T10:05:33.650201" elapsed="0.000322"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:11:57.364451" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:5173/nyheter'.</msg>
+<msg time="2026-04-22T10:05:33.651044" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:5173'.</msg>
 <arg>${SportsonView}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-04-21T11:11:57.364056" elapsed="3.230671"/>
+<status status="PASS" start="2026-04-22T10:05:33.650742" elapsed="2.383131"/>
 </kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-22T10:05:36.034578" elapsed="1.041572"/>
+</kw>
+<status status="PASS" start="2026-04-22T10:05:33.649379" elapsed="3.427133"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Test1 nyheter" line="6">
+<kw name="Given the user sees a short description of a news item" owner="Frontend_Tester">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:12:00.596220" level="INFO">Clicking element '//*[@id="root"]/header/nav/a[2]'.</msg>
+<msg time="2026-04-22T10:05:37.092341" level="INFO">Clicking element '//*[@id="root"]/header/nav/a[2]'.</msg>
 <arg>//*[@id="root"]/header/nav/a[2]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-04-21T11:12:00.595265" elapsed="4.191835"/>
+<status status="PASS" start="2026-04-22T10:05:37.087391" elapsed="2.859693"/>
 </kw>
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:12:08.835439" level="INFO">Element '//*[@id="root"]/main/h1' is displayed.</msg>
+<msg time="2026-04-22T10:05:43.485320" level="INFO">Element '//*[@id="root"]/main/h1' is displayed.</msg>
 <arg>//*[@id="root"]/main/h1</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2026-04-21T11:12:04.787767" elapsed="4.048028"/>
+<status status="PASS" start="2026-04-22T10:05:39.947641" elapsed="3.538014"/>
 </kw>
+<status status="PASS" start="2026-04-22T10:05:37.081287" elapsed="6.404701"/>
+</kw>
+<kw name="When the user clicks on the new item" owner="Frontend_Tester">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:12:08.836948" level="INFO">Clicking element '//*[@id="root"]/main/div/section/section[2]/article[2]'.</msg>
+<msg time="2026-04-22T10:05:43.494007" level="INFO">Clicking element '//*[@id="root"]/main/div/section/section[2]/article[2]'.</msg>
 <arg>//*[@id="root"]/main/div/section/section[2]/article[2]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-04-21T11:12:08.836303" elapsed="4.114953"/>
+<status status="PASS" start="2026-04-22T10:05:43.492760" elapsed="2.210135"/>
 </kw>
+<status status="PASS" start="2026-04-22T10:05:43.489679" elapsed="2.213888"/>
+</kw>
+<kw name="Then the user should see a detailed view appear in a modal" owner="Frontend_Tester">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2026-04-21T11:12:16.992556" level="INFO">Element '//*[@id="root"]/main/div[2]/article/button' is displayed.</msg>
+<msg time="2026-04-22T10:05:47.847506" level="INFO">Element '//*[@id="root"]/main/div[2]/article/button' is displayed.</msg>
 <arg>//*[@id="root"]/main/div[2]/article/button</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2026-04-21T11:12:12.951871" elapsed="4.041026"/>
+<status status="PASS" start="2026-04-22T10:05:45.713123" elapsed="2.134650"/>
 </kw>
-<status status="PASS" start="2026-04-21T11:11:57.362507" elapsed="19.630660"/>
+<status status="PASS" start="2026-04-22T10:05:45.710911" elapsed="2.137080"/>
 </kw>
-<status status="PASS" start="2026-04-21T11:11:57.361323" elapsed="19.632433"/>
+<status status="PASS" start="2026-04-22T10:05:37.076753" elapsed="10.772136"/>
 </test>
-<status status="PASS" start="2026-04-21T11:11:57.331406" elapsed="19.663390"/>
+<status status="PASS" start="2026-04-22T10:05:33.370944" elapsed="14.480690"/>
 </suite>
-<status status="FAIL" start="2026-04-21T11:11:44.661214" elapsed="32.337021"/>
+<status status="PASS" start="2026-04-22T10:05:33.369129" elapsed="14.485555"/>
+</suite>
+<status status="PASS" start="2026-04-22T10:05:33.308182" elapsed="14.549344"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="2" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1" skip="0">Admin</stat>
-<stat pass="0" fail="1" skip="0">Employee</stat>
-<stat pass="0" fail="2" skip="0">Login</stat>
-<stat pass="0" fail="1" skip="0">TC03</stat>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="1" fail="2" skip="0">Tests</stat>
-<stat name="Login Admin" id="s1-s1" pass="0" fail="1" skip="0">Tests.Login Admin</stat>
-<stat name="Login Employee" id="s1-s2" pass="0" fail="1" skip="0">Tests.Login Employee</stat>
-<stat name="OpenSportsonView" id="s1-s3" pass="1" fail="0" skip="0">Tests.OpenSportsonView</stat>
+<stat name="Sportson tests" id="s1" pass="1" fail="0" skip="0">Sportson tests</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Sportson tests.Tests</stat>
+<stat name="OpenSportsonView" id="s1-s1-s1" pass="1" fail="0" skip="0">Sportson tests.Tests.OpenSportsonView</stat>
 </suite>
 </statistics>
 <errors>
